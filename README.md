@@ -42,6 +42,44 @@ Response: Response to initial treatment (Integer: 0 = No Response, 1 = Partial R
 
 Recurred: Whether the cancer recurred (Target variable: 0 = No, 1 = Yes).
 
+## Descriptive Analysis
+
+Age:
+
+The dataset contains individuals aged from 15 to 82 years, with a mean age of 40.87 years and a standard deviation of 15.13 years. 
+
+Gender:
+
+The dataset includes 312 females (0) and 71 males (1), showing a higher representation of females.
+
+T (Tumor Size):
+
+T2 is the most common tumor size, followed by T3a and T1a. Larger tumor classifications (T3 and T4) are associated with a higher risk of recurrence.
+
+N (Lymph Node Involvement):
+
+N0 (no lymph node involvement) is the most frequent, while N1a and N1b indicate lymph node spread. Lymph node involvement significantly increases the risk of recurrence.
+
+M (Metastasis):
+
+M0 (no metastasis) is prevalent in the dataset, but M1 (distant metastasis) indicates a higher recurrence risk.
+
+Stage:
+
+Stage 0 is associated with early disease and no recurrence, while Stage 4 represents advanced disease with a higher recurrence risk. The stage combines T, N, and M variables, helping assess the overall prognosis.
+
+Response to Treatment:
+
+Response 1 (good response) is linked to lower recurrence risk, while Response 3 (poor response) suggests a higher likelihood of recurrence.
+
+Recurred (Outcome):
+
+Out of 383 patients, 108 experienced recurrence, while 275 did not.
+
+
+<img width="798" alt="image" src="https://github.com/user-attachments/assets/55b7de78-5d60-49ff-aef6-fbff7a387e82" />
+
+
 
 
 
