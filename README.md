@@ -76,6 +76,12 @@ The three machine learning models—Logistic Regression, Support Vector Machine 
 
 - **SVM** performed the best across all evaluation metrics: accuracy, precision, recall, and F1-score.
 
+---
+
+## Conclusion
+
+The Support Vector Machine (SVM) model outperforms the other models, achieving the highest accuracy (96.52%), precision (97.59%), and F1-Score (96.52%). Logistic Regression and Decision Tree models also perform well, with Logistic Regression showing a strong balance between precision and recall, and Decision Tree excelling in precision but slightly lower in recall. Overall, all models perform well predicting recurrence, with SVM being the most effective. This model effectively predicts the recurrence of well-differentiated thyroid cancer using clinicopathologic features like age, smoking, radiotherapy, tumor size, lymph node involvement, metastasis, stage, and treatment response. 
+
 
 
 
